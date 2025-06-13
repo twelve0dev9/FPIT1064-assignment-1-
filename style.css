@@ -1,0 +1,166 @@
+/* global */
+* {
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    height: 0;
+}
+
+/* header */
+header {
+    height: 150px;
+}
+
+.header-img {
+    width: 15%;
+    float: left;
+    margin-top: 25px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+
+.header-h1 {
+    width: 85%;
+    height: 104px;
+    float: right;
+    margin-top: 25px;
+}
+
+header h1 {
+    text-align: left;
+    margin-top: 25px;
+    font-size: 50px;
+    color: #d4b195;
+}
+
+/* nav */
+nav {
+    height: fit-content;
+}
+
+.nav-1 {
+    background-color: #d4b195;
+    text-align: center;
+    height: 65px;
+}
+
+.nav-link-1:hover{
+    color: #94603f;
+    transition: 500ms;
+}
+
+/* placeholder */
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.nav-link-1{
+    margin-left: 20px;
+    color: #5b453d;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+.nav-link2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.nav-link-2{
+    font-size: 17px;
+    font-weight: normal;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #5b453d;
+    font-family: monospace;
+}
+
+.nav-link-2:hover{
+    color: #f1d7c7;
+    transition: 500ms;
+}
+
+.nav-2 {
+    background-color: #bd8e70;
+    height: 40px;
+    text-align: center; 
+}
+
+/* footer */
+footer {
+    background-color: #d4b195;
+    text-align: center;
+}
+
+.social-media {
+    padding-top: 10px;
+}
+
+.social-media img {
+    margin-left: 5px;
+    margin-right: 5px;
+    filter: 
+        invert(25%) 
+        sepia(15%) 
+        saturate(848%) 
+        hue-rotate(330deg) 
+        brightness(97%) 
+        contrast(87%);
+    transition: 500ms;
+}
+
+.social-media img:hover {
+    filter: 
+        invert(42%) 
+        sepia(8%) 
+        saturate(3047%) 
+        hue-rotate(340deg) 
+        brightness(93%) 
+        contrast(85%);
+}
+
+.footer-text {
+    height: 55px;
+    margin-top: 0;
+}
+
+footer ul {
+    height: 10px;
+}
+
+footer ul li {
+    margin-right: 5px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer ul li a {
+    color: #5b453d;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+footer p {
+    margin-left: 3%;
+    font-size: 12px;
+    color: #5b453d;
+    font-style: italic;
+    transition: 500ms;
+}
+
+footer ul li a:hover {
+    color: #94603f;
+}

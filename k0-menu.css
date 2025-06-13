@@ -1,0 +1,55 @@
+main hr {
+    border: 5px solid #ffffff;
+}
+
+.food {
+    background-color: #f7f7f7;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.food_img {
+    width: 30%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.food_img_src {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.right {
+    margin: 2%;
+    height: 50%;
+    width: 65%;
+    float: left;
+}
+
+.food_h1, .food_text {
+    width: 101%;
+}
+
+.food_h1 {
+    height: 50%;
+    color: #45342e;
+    font-family: fantasy;
+    font-size:20px;
+
+}
+
+.food_text, .food_price {
+    margin: 1% 5%;
+    width: 70%;
+    color: #45342eae;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.food_price {
+    margin-bottom: 10%;
+    font-size: 20px;
+}
